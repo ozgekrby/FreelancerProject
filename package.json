@@ -1,0 +1,27 @@
+{
+  "name": "freelancerproject",
+  "version": "1.0.0",
+  "description": "freelancer project",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozgekrby/FreelancerProject.git"
+  },
+  "keywords": [
+    "freelancer",
+    "nodejs"
+  ],
+  "author": "Özge Karabay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozgekrby/FreelancerProject/issues"
+  },
+  "homepage": "https://github.com/ozgekrby/FreelancerProject#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.7"
+  }
+}
