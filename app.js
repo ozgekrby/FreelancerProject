@@ -20,7 +20,7 @@ app.use(methodOverride('_method',{
 // Connect DB
 const connectWithRetry = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/freelancer_database");
+    await mongoose.connect(process.env.MONGO_URL);
     console.log("Connected to DB");
   } catch (err) {
     console.error("Database connection error:", err);
